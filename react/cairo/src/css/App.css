@@ -1,0 +1,225 @@
+.App {
+    text-align: center;
+  }
+
+nav {
+  background-image: url("../media/navBackground.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.wrapper-sign-in,
+.wrapper,
+.Account,
+.AddReview,
+.Reset,
+.Home {
+  min-height: 91.1vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #258ea6;
+}
+
+.wrapper-search {
+  min-height: 1.1vh;
+  margin-top: 2vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #258ea6;
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+.review-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px #555;
+  background-color: #ffffff;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.form-wrapper-sign-in {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+.form-wrapper-account {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+.input {
+  width:350px;
+}
+
+.Search {
+  font-size: 20px;
+}
+
+.form-wrapper-search {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.account {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.myAccount {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  color: #999;
+}
+
+.firstName, .startingPoint, .transportMean, .departureHour {
+  margin-right: 1%;
+}
+
+.lastName, .destination, .crowdedLevel, .time {
+  margin-left: 1%;
+}
+
+.destination,
+.firstName,
+.lastName,
+.email,
+.password,
+.username,
+.confirmPassword,
+.startingPoint,
+.transportMean,
+.crowdedLevel,
+.departureHour,
+.time,
+.observations,
+.satisfactionLevel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.firstName,
+.lastName,
+.startingPoint,
+.destination,
+.transportMean,
+.crowdedLevel,
+.departureHour,
+.time {
+  width: 49%;
+}
+
+.email,
+.password,
+.username,
+.confirmPassword,
+.observations,
+.satisfactionLevel {
+  width: 100%;
+}
+
+.login, .createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login button, .createAccount button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.login button:hover, .createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+}

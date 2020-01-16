@@ -1,0 +1,32 @@
+{
+  "name": "databaseserver",
+  "version": "1.0.1",
+  "description": "cairo database server",
+  "main": "database_server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon database_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://radnic26@bitbucket.org/radnic26/cairo.git"
+  },
+  "keywords": [
+    "db"
+  ],
+  "authors": [ 
+    "Radu Niculae", 
+    "Oana Onici",
+    "Radu Cristian", 
+    "Alina Matei",
+    "Ioana Nagit" 
+],
+  "license": "MIT"
+}
